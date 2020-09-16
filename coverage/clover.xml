@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1600250817074" clover="3.2.0">
+  <project timestamp="1600250817074" name="All files">
+    <metrics statements="198" coveredstatements="35" conditionals="55" coveredconditionals="3" methods="105" coveredmethods="2" elements="358" coveredelements="40" complexity="0" loc="198" ncloc="198" packages="10" files="54" classes="54"/>
+    <package name="DoneWithIt">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.api">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="client.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\api\client.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="listings.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\api\listings.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.components">
+      <metrics statements="52" coveredstatements="8" conditionals="30" coveredconditionals="1" methods="28" coveredmethods="1"/>
+      <file name="ActivityIndicator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\ActivityIndicator.js">
+        <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="AppButton.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\AppButton.js">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="AppPicker.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\AppPicker.js">
+        <metrics statements="9" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+      <file name="AppText.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\AppText.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="AppTextInput.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\AppTextInput.js">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="Button.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Button.js">
+        <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="Card.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Card.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="Icon.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Icon.js">
+        <metrics statements="1" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="ImageInput.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\ImageInput.js">
+        <metrics statements="17" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+      <file name="ImageInputList.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\ImageInputList.js">
+        <metrics statements="7" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="Screen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Screen.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="Test.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Test.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="Text.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Text.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="TextInput.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\TextInput.js">
+        <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.components.Picker">
+      <metrics statements="15" coveredstatements="3" conditionals="7" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="CategoryPickerItem.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Picker\CategoryPickerItem.js">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="Picker.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Picker\Picker.js">
+        <metrics statements="10" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+      </file>
+      <file name="PickerItem.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\Picker\PickerItem.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.components.forms">
+      <metrics statements="28" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="18" coveredmethods="0"/>
+      <file name="AppForm.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\AppForm.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="AppFormField.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\AppFormField.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="AppFormPicker.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\AppFormPicker.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="ErrorMessage.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\ErrorMessage.js">
+        <metrics statements="3" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="Form.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\Form.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="FormField.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\FormField.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="FormImagePicker.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\FormImagePicker.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="FormPicker.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\FormPicker.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="SubmitButton.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\SubmitButton.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\forms\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.components.lists">
+      <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ListItem.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\lists\ListItem.js">
+        <metrics statements="2" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+      <file name="ListItemDeleteAction.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\lists\ListItemDeleteAction.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="ListItemSeparator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\components\lists\ListItemSeparator.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.config">
+      <metrics statements="0" coveredstatements="0" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="colors.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\config\colors.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="defaultStyles.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\config\defaultStyles.js">
+        <metrics statements="0" coveredstatements="0" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="styles.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\config\styles.js">
+        <metrics statements="0" coveredstatements="0" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.hooks">
+      <metrics statements="22" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="useApi.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\hooks\useApi.js">
+        <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="useLocation.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\hooks\useLocation.js">
+        <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.navigation">
+      <metrics statements="19" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <file name="AccountNavigator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\AccountNavigator.js">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="AppNavigator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\AppNavigator.js">
+        <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="AuthNavigator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\AuthNavigator.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="FeedNavigator.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\FeedNavigator.js">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="NewListingButton.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\NewListingButton.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="navigationTheme.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\navigationTheme.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="routes.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\navigation\routes.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="DoneWithIt.app.screens">
+      <metrics statements="52" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="30" coveredmethods="0"/>
+      <file name="AccountScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\AccountScreen.js">
+        <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+      </file>
+      <file name="ListingDetailsScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\ListingDetailsScreen.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+      <file name="ListingEditScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\ListingEditScreen.js">
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+      </file>
+      <file name="ListingsScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\ListingsScreen.js">
+        <metrics statements="8" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="LoginScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\LoginScreen.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="MessagesScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\MessagesScreen.js">
+        <metrics statements="12" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+      </file>
+      <file name="RegisterScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\RegisterScreen.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="ViewImageScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\ViewImageScreen.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="WelcomeScreen.js" path="C:\Users\HP\Web development\Kay\DoneWithIt\app\screens\WelcomeScreen.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

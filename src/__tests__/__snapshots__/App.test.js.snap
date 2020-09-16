@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js tests renders correctly 1`] = `
+<RNCSafeAreaView
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        pointerEvents="auto"
+        removeClippedSubviews={false}
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            null,
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            accessibilityElementsHidden={false}
+            importantForAccessibility="auto"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <View
+                    collapsable={false}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  />
+                  <View
+                    accessibilityElementsHidden={false}
+                    closing={false}
+                    gestureVelocityImpact={0.3}
+                    importantForAccessibility="auto"
+                    onClose={[Function]}
+                    onGestureBegin={[Function]}
+                    onGestureCanceled={[Function]}
+                    onOpen={[Function]}
+                    onTransitionStart={[Function]}
+                    pointerEvents="box-none"
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    transitionSpec={
+                      Object {
+                        "close": Object {
+                          "animation": "spring",
+                          "config": Object {
+                            "damping": 500,
+                            "mass": 3,
+                            "overshootClamping": true,
+                            "restDisplacementThreshold": 10,
+                            "restSpeedThreshold": 10,
+                            "stiffness": 1000,
+                          },
+                        },
+                        "open": Object {
+                          "animation": "spring",
+                          "config": Object {
+                            "damping": 500,
+                            "mass": 3,
+                            "overshootClamping": true,
+                            "restDisplacementThreshold": 10,
+                            "restSpeedThreshold": 10,
+                            "stiffness": 1000,
+                          },
+                        },
+                      }
+                    }
+                  >
+                    <View
+                      pointerEvents="box-none"
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        onGestureHandlerEvent={[Function]}
+                        onGestureHandlerStateChange={[Function]}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "flex": 1,
+                                "overflow": "hidden",
+                              },
+                              Array [
+                                Object {
+                                  "backgroundColor": "#fff",
+                                },
+                                undefined,
+                              ],
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "flex": 1,
+                                "flexDirection": "column-reverse",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "flex": 1,
+                                }
+                              }
+                            >
+                              <RCTSafeAreaView
+                                emulateUnlessSupported={true}
+                                style={
+                                  Array [
+                                    Object {
+                                      "flex": 1,
+                                      "paddingTop": 20,
+                                    },
+                                    Object {
+                                      "backgroundColor": "#f8f4f4",
+                                      "marginTop": 10,
+                                      "padding": 20,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  style={
+                                    Array [
+                                      Object {
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "#f8f4f4",
+                                        "marginTop": 10,
+                                        "padding": 20,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "aspectRatio": 1.3333333333333333,
+                                        },
+                                        Object {
+                                          "bottom": 0,
+                                          "left": 0,
+                                          "position": "absolute",
+                                          "right": 0,
+                                          "top": 0,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      autoPlay={false}
+                                      autoplay={true}
+                                      enableMergePathsAndroidForKitKatAndAbove={false}
+                                      loop={true}
+                                      onAnimationFinish={[Function]}
+                                      progress={0}
+                                      resizeMode="contain"
+                                      sourceJson="{\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":0,\\"ty\\":4,\\"nm\\":\\"形状图层 2\\",\\"ks\\":{\\"o\\":{\\"k\\":100},\\"r\\":{\\"k\\":[{\\"i\\":{\\"x\\":[0.833],\\"y\\":[0.833]},\\"o\\":{\\"x\\":[0.167],\\"y\\":[0.167]},\\"n\\":[\\"0p833_0p833_0p167_0p167\\"],\\"t\\":0,\\"s\\":[0],\\"e\\":[270]},{\\"i\\":{\\"x\\":[0.833],\\"y\\":[0.833]},\\"o\\":{\\"x\\":[0.167],\\"y\\":[0.167]},\\"n\\":[\\"0p833_0p833_0p167_0p167\\"],\\"t\\":17,\\"s\\":[270],\\"e\\":[360]},{\\"i\\":{\\"x\\":[0.833],\\"y\\":[0.833]},\\"o\\":{\\"x\\":[0.167],\\"y\\":[0.167]},\\"n\\":[\\"0p833_0p833_0p167_0p167\\"],\\"t\\":35.167,\\"s\\":[360],\\"e\\":[630]},{\\"i\\":{\\"x\\":[0.833],\\"y\\":[0.833]},\\"o\\":{\\"x\\":[0.167],\\"y\\":[0.167]},\\"n\\":[\\"0p833_0p833_0p167_0p167\\"],\\"t\\":51,\\"s\\":[630],\\"e\\":[720]},{\\"t\\":69}]},\\"p\\":{\\"k\\":[400.621,310.313,0]},\\"a\\":{\\"k\\":[0.621,10.313,0]},\\"s\\":{\\"k\\":[300,300,100]}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"d\\":1,\\"ty\\":\\"el\\",\\"s\\":{\\"k\\":[47.704,47.704]},\\"p\\":{\\"k\\":[0,0]},\\"nm\\":\\"椭圆路径 1\\",\\"mn\\":\\"ADBE Vector Shape - Ellipse\\"},{\\"ty\\":\\"st\\",\\"c\\":{\\"k\\":[0.9882352941176471,0.3607843137254902,0.396078431372549,1]},\\"o\\":{\\"k\\":100},\\"w\\":{\\"k\\":2},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"nm\\":\\"描边 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\"},{\\"ty\\":\\"tr\\",\\"p\\":{\\"k\\":[0.621,10.313],\\"ix\\":2},\\"a\\":{\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"变换\\"}],\\"nm\\":\\"椭圆 1\\",\\"np\\":3,\\"mn\\":\\"ADBE Vector Group\\"},{\\"ty\\":\\"tm\\",\\"s\\":{\\"k\\":0,\\"ix\\":1},\\"e\\":{\\"k\\":25,\\"ix\\":2},\\"o\\":{\\"k\\":0,\\"ix\\":3},\\"m\\":1,\\"ix\\":2,\\"nm\\":\\"修剪路径 1\\",\\"mn\\":\\"ADBE Vector Filter - Trim\\"}],\\"ip\\":0,\\"op\\":750,\\"st\\":0,\\"bm\\":0,\\"sr\\":1},{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"形状图层 1\\",\\"ks\\":{\\"o\\":{\\"k\\":100},\\"r\\":{\\"k\\":0},\\"p\\":{\\"k\\":[400.621,310.313,0]},\\"a\\":{\\"k\\":[0.621,10.313,0]},\\"s\\":{\\"k\\":[300,300,100]}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"d\\":1,\\"ty\\":\\"el\\",\\"s\\":{\\"k\\":[47.704,47.704]},\\"p\\":{\\"k\\":[0,0]},\\"nm\\":\\"椭圆路径 1\\",\\"mn\\":\\"ADBE Vector Shape - Ellipse\\"},{\\"ty\\":\\"st\\",\\"c\\":{\\"k\\":[0.91,0.91,0.91,1]},\\"o\\":{\\"k\\":100},\\"w\\":{\\"k\\":2},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"nm\\":\\"描边 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\"},{\\"ty\\":\\"tr\\",\\"p\\":{\\"k\\":[0.621,10.313],\\"ix\\":2},\\"a\\":{\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"变换\\"}],\\"nm\\":\\"椭圆 1\\",\\"np\\":3,\\"mn\\":\\"ADBE Vector Group\\"}],\\"ip\\":0,\\"op\\":750,\\"st\\":0,\\"bm\\":0,\\"sr\\":1}],\\"v\\":\\"4.5.4\\",\\"ddd\\":0,\\"ip\\":0,\\"op\\":69,\\"fr\\":25,\\"w\\":800,\\"h\\":600}"
+                                      speed={1}
+                                      style={
+                                        Object {
+                                          "aspectRatio": 1.3333333333333333,
+                                          "bottom": 0,
+                                          "left": 0,
+                                          "position": "absolute",
+                                          "right": 0,
+                                          "top": 0,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                  <RCTScrollView
+                                    data={Array []}
+                                    disableVirtualization={false}
+                                    getItem={[Function]}
+                                    getItemCount={[Function]}
+                                    horizontal={false}
+                                    initialNumToRender={10}
+                                    keyExtractor={[Function]}
+                                    maxToRenderPerBatch={10}
+                                    numColumns={1}
+                                    onContentSizeChange={[Function]}
+                                    onEndReachedThreshold={2}
+                                    onLayout={[Function]}
+                                    onMomentumScrollEnd={[Function]}
+                                    onScroll={[Function]}
+                                    onScrollBeginDrag={[Function]}
+                                    onScrollEndDrag={[Function]}
+                                    removeClippedSubviews={false}
+                                    renderItem={[Function]}
+                                    scrollEventThrottle={50}
+                                    stickyHeaderIndices={Array []}
+                                    updateCellsBatchingPeriod={50}
+                                    viewabilityConfigCallbackPairs={Array []}
+                                    windowSize={21}
+                                  >
+                                    <View />
+                                  </RCTScrollView>
+                                </View>
+                              </RCTSafeAreaView>
+                            </View>
+                            <View
+                              pointerEvents="box-none"
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents="auto"
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderTopColor": "rgb(216, 216, 216)",
+          "borderTopWidth": 0.5,
+          "bottom": 0,
+          "elevation": 8,
+          "height": 49,
+          "left": 0,
+          "paddingBottom": 0,
+          "paddingHorizontal": 0,
+          "position": null,
+          "right": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Feed, tab, 1 of 3"
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "selected": true,
+            }
+          }
+          accessibilityStates={
+            Array [
+              "selected",
+            ]
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "minWidth": 25,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <Text />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "minWidth": 25,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  Object {
+                    "opacity": 0,
+                  },
+                ]
+              }
+            >
+              <Text />
+            </View>
+          </View>
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#fc5c65",
+                },
+                Object {
+                  "fontSize": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            Feed
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fc5c65",
+                "borderColor": "#fff",
+                "borderRadius": 37,
+                "borderWidth": 10,
+                "bottom": 30,
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+        <View
+          accessibilityLabel="Account, tab, 3 of 3"
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "selected": false,
+            }
+          }
+          accessibilityStates={Array []}
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "minWidth": 25,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  Object {
+                    "opacity": 0,
+                  },
+                ]
+              }
+            >
+              <Text />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "minWidth": 25,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <Text />
+            </View>
+          </View>
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#8E8E8F",
+                },
+                Object {
+                  "fontSize": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            Account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
