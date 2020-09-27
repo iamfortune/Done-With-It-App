@@ -11,6 +11,7 @@ import Screen from "../components/Screen";
 import CategoryPickerItem from '../components/Picker/CategoryPickerItem';
 import FormImagePicker from "../components/forms/FormImagePicker";
 import { ScrollView } from "react-native-gesture-handler";
+import listingsApi from '../api/listings';
 import useLocation from "../hooks/useLocation";
 
 const validationSchema = Yup.object().shape({
@@ -81,6 +82,17 @@ const categories = [
 function ListingEditScreen() {
   const location = useLocation();
 
+   const handleSubmit = async (listing) => {
+    const result = await listingsApi.addListing(
+      { ...listing, location },
+      progress => console.log(progress)
+      );
+    if (!result.ok) 
+      return alert('Could not save listing.');
+      alert('listing created successfully!')
+  }
+
+
   return (
     <ScrollView>
     <Screen style={styles.container}>
@@ -93,7 +105,7 @@ function ListingEditScreen() {
           category: null,
           images: [],
         }}
-        onSubmit={(values) => console.log(location)}
+        onSubmit={handleSubmit}
         validationSchema={validationSchema}
       >
         <FormImagePicker name="images" />

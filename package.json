@@ -13,8 +13,10 @@
     "collectCoverage": true,
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
-    ], 
-    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"],
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ],
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
       "!**/coverage/**",
@@ -35,7 +37,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.4",
     "expo": "~37.0.3",
-    "expo-cli": "^3.22.3",
+    "expo-cli": "^3.27.10",
     "expo-constants": "^9.0.0",
     "expo-image-picker": "~8.1.0",
     "expo-location": "~8.1.0",
